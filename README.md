@@ -1,7 +1,9 @@
-# Laplace neural operator for complex geometries
+# Learning Neural Operators on Riemannian Manifolds
+
+This repository contains code accompanying our paper ["Learning Neural Operators on Riemannian Manifolds"](https://arxiv.org/abs/2302.08166). 
+
 ![images](img/fig_NORM_method.svg)
 
-This repository contains code accompanying our paper ["Laplace neural operator for complex geometries"](https://arxiv.org/abs/2302.08166). 
 
 ## Dependencies & packages
 Dependencies:
@@ -11,7 +13,7 @@ Dependencies:
 Additionally, we need an open-source Python package Lapy (https://github.com/Deep-MI/LaPy/tree/main) for differential geometry on triangle and tetrahedra meshes, which is used to calculate LBO basis. If you fail to install it, try to add the `lapy` folder included in our source code into your path.
 
 ## Data
-The datasets of Case0-Case2 can be found in `datasets` folder. You can download the dataset(s) of Case3 and Case4 from [here](https://drive.google.com/drive/folders/1FEat-Hn8rpvR33JDxPF6UROXee1626_1?usp=sharing). 
+The datasets of Case0-Case2 can be found in `datasets` folder. You can download the dataset(s) of Case3 and Case4 from [here](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing). 
 
 ```
 Case0-DarcyFlow.mat
