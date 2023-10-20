@@ -1,7 +1,7 @@
 # Laplace neural operator for complex geometries
-![images](img/NORM_method.png)
+![images](img/fig_NORM_method.svg)
 
-This repository contains code accompanying our paper ["Laplace neural operator for complex geometries"](https://arxiv.org/abs/2302.08166). For questions, feel free to contact us (qlmeng@nuaa.edu.cn).
+This repository contains code accompanying our paper ["Laplace neural operator for complex geometries"](https://arxiv.org/abs/2302.08166). 
 
 ## Dependencies & packages
 Dependencies:
