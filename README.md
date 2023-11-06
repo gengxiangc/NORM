@@ -13,26 +13,26 @@ Dependencies:
 Additionally, we need an open-source Python package Lapy (https://github.com/Deep-MI/LaPy/tree/main) for differential geometry on triangle and tetrahedra meshes, which is used to calculate LBO basis. If you fail to install it, try to add the `lapy` folder included in our source code into your path.
 
 ## Data
-The datasets of Case0-Case2 can be found in `datasets` folder. You can download the dataset(s) of Case3 and Case4 from [here](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing). 
+The datasets of Case1-Case3 can be found in `datasets` folder. You can download the dataset(s) of Case4 and Case5 from [here](https://drive.google.com/drive/folders/1jS7YwY1Gs7rGOm1VXrkN_KvTzxGxTw6G?usp=sharing). 
 
 ```
-Case0-DarcyFlow.mat
+Case1-DarcyFlow.mat
 ├── Input: `c_field`(1200*2290)
 └── Output: `u_field`(1200*2290)
 ---------------------------------------------
-Case1-Turbulence.mat
+Case2-Turbulence.mat
 ├── Input: `Input`(400*2673)
 └── Output: `Output`(400*2673)
 ---------------------------------------------
-Case2-HeatTransfer.mat
+Case3-HeatTransfer.mat
 ├── Input: `input`(300*186)
 └── Output: `output`(300*7199)
 ---------------------------------------------
-Case3-Composites.mat
+Case4-Composites.mat
 ├── Input: `T_field`(1200*8232)
 └── Output: `D_field`(1200*8232)
 ---------------------------------------------
-Case4-BloodFlow.mat
+Case5-BloodFlow.mat
 ├── Input: `BC_time`(500*121*6)
 └── Output: `velocity_x`(500*1656*121),`velocity_y`,`velocity_z`
 ```
@@ -43,7 +43,7 @@ For all cases, you can directly run the codes by executing `main.py` to quickly 
 ```
 python main.py 
 ```
-Additionally, we provide the `Calculate_LBO_basis.py` in `datasets` folder to calculate the LBO basis for Case2, Case3 and Case4. The calculation of Case0 and Case1 are embedded in the corresponding `main.py`.
+Additionally, we provide the `Calculate_LBO_basis.py` in `datasets` folder to calculate the LBO basis for Case3, Case4 and Case5. The calculation of Case1 and Case2 are embedded in the corresponding `main.py`.
 
 
 ## Results
