@@ -47,7 +47,7 @@ Additionally, we provide the `Calculate_LBO_basis.py` in `datasets` folder to ca
 
 
 ## Results
-### Case0, Case1 and Case2
+### Case1, Case2 and Case3
 ![images](img/Toycase.png)
 ---------------------------------------------------
 
