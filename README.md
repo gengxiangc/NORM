@@ -1,6 +1,6 @@
 # Learning Neural Operators on Riemannian Manifolds
 
-This repository contains code accompanying our paper ["Learning Neural Operators on Riemannian Manifolds"](https://arxiv.org/abs/2302.08166). 
+This repository contains code accompanying our paper ["Learning Neural Operators on Riemannian Manifolds"](https://arxiv.org/abs/2302.08166).
 
 ![images](img/fig_NORM_method.svg)
 
@@ -50,12 +50,10 @@ Additionally, we provide the `Calculate_LBO_basis.py` in `datasets` folder to ca
 ### Case0, Case1 and Case2
 ![images](img/Toycase.png)
 ---------------------------------------------------
-### Case3
-![images](img/Composites.png)
+
 ----------------------------------------------------
 ### Case4
 https://github.com/qingluM/NORM/assets/57898734/51882e44-0311-4fb4-b6eb-5949a9baf90a
-
 
 ## Publication
 If you found this repository useful, please consider citing our paper:
