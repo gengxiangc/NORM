@@ -53,7 +53,7 @@ Additionally, we provide the `Calculate_LBO_basis.py` in `datasets` folder to ca
 
 ----------------------------------------------------
 ### Case4
-https://github.com/qingluM/NORM/assets/57898734/51882e44-0311-4fb4-b6eb-5949a9baf90a
+https://github.com/gengxiangc/NORM/assets/45565440/3a4e6d53-237c-4170-aa96-dff96ab7ca6a
 
 ## Publication
 If you found this repository useful, please consider citing our paper:
