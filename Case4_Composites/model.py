@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import time
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -65,12 +66,21 @@ class NORM_Net(nn.Module):
 
     def forward(self, x):
 
+        time_1 = time.perf_counter()
+
         x = self.fc0(x)
+        time_2 = time.perf_counter()
+        print('self.fc0(x) : %.6f' % (time_2 - time_1))
         x = x.permute(0, 2, 1)
-        
+
         x1 = self.conv0(x)
+        time_3 = time.perf_counter()
+        print('self.conv0(x) : %.6f' % (time_3 - time_2))
+
         x2 = self.w0(x)
-        
+        time_4 = time.perf_counter()
+        print('self.w0(x) : %.6f' % (time_4 - time_3))
+
         x = x1 + x2
         x = F.gelu(x)
 
