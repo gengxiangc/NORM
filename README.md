@@ -58,10 +58,11 @@ https://github.com/gengxiangc/NORM/assets/45565440/3a4e6d53-237c-4170-aa96-dff96
 ## Publication
 If you found this repository useful, please consider citing our paper:
 ```
-@article{chen2023laplace,
-  title={Laplace neural operator for complex geometries},
-  author={Chen, Gengxiang and Liu, Xu and Li, Yingguang and Meng, Qinglu and Chen, Lu},
-  journal={arXiv preprint arXiv:2302.08166},
-  year={2023}
+@misc{chen2023learning,
+      title={Learning Neural Operators on Riemannian Manifolds}, 
+      author={Gengxiang Chen and Xu Liu and Qinglu Meng and Lu Chen and Changqing Liu and Yingguang Li},
+      year={2023},
+      eprint={2302.08166},
+      archivePrefix={arXiv},
 }
 ```
